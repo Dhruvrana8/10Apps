@@ -1,3 +1,4 @@
+import 'package:coundown_timer/QuizeApp/quizeApp.dart';
 import 'package:coundown_timer/coundown_timer/coundownTimerApp.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       debugShowCheckedModeBanner: false,
-      home: CoundownTimerApp(),
+      home: QuizeApp(),
     );
   }
 }
